@@ -1,5 +1,5 @@
 import streamlit as st
-import pandas ad pd
+import pandas as pd
 import numpy as np
 import random
 df=pd.DataFrame(np.random.randn(500,2)/[50,50]+[37.76,-122.4],columns=['lat,'lon'])
